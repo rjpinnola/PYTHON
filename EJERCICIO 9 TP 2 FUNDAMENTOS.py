@@ -1,0 +1,7 @@
+print("ingrese el numero binario digito por digito")
+num1=int(input("ingrese el primer digito "))
+num2=int(input("ingrese el segundo digito "))
+num3=int(input("ingrese el tercer digito "))
+num4=int(input("ingrese el cuarto digito "))
+print("el numero binario ingresado es",num1,num2,num3,num4)
+print("en sistema decimal, el valor es de",(num1*(2**3))+(num2*(2**2))+(num3*(2**1))+(num4*(2**0)))

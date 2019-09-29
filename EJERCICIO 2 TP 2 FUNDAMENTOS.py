@@ -1,0 +1,5 @@
+num1=int(input("ingrese un primer número "))
+num2=int(input("ingrese un segundo número "))
+num3=int(input("ingrese un tercer número "))
+print("los números que usted eligío fueron",num1 ,num2 ,num3)
+print("y el promedio entre esos tres números es de", (num1+num2+num3)/3)
