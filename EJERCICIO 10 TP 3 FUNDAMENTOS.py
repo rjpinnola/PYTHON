@@ -1,0 +1,27 @@
+SB=int(input("ingrese el sueldo basico $"))
+AA=int(input("ingrese la cantidad de años de antiguedad "))
+EC=input("ingrese su estado civil: (c),si esta casado o (s),si esta soltero ")
+JU=((SB*(AA*5)/100)*0.11)
+JU2=((SB*(AA*7)/100)*0.11)
+OB=((SB*(AA*5)/100)*0.03)
+OB2=((SB*(AA*7)/100)*0.03)
+SI=((SB*(AA*5)/100)*0.03)
+SI2=((SB*(AA*7)/100)*0.03)
+if EC=="s":
+    print("el sueldo basico es de $",SB)
+    print("años de antiguedad:",AA)
+    print("descuentos:")
+    print(".de jubilacion: $",JU)
+    print(".de obra social: $",OB)
+    print(".de sindicato: $",SI)
+    print("el sueldo NETO es de $",(((SB+(SB*(AA*5)/100))-(JU+OB+SI))))
+if EC=="c":
+    print("el sueldo basico es de $",SB)
+    print("años de antiguedad:",AA)
+    print("descuentos:")
+    print(".de jubilacion: $",JU2)
+    print(".de obra social: $",OB2)
+    print(".de sindicato: $",SI2)
+    print("el sueldo NETO es de $",(((SB+(SB*(AA*7)/100))-(JU2+OB2+SI2))))
+
+   
